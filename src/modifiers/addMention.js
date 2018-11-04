@@ -32,8 +32,7 @@ const addMention = (editorState, mention, mentionPrefix, mentionTrigger, entityM
   if (blockSize === end) {
     mentionReplacedContent = Modifier.insertText(
       mentionReplacedContent,
-      mentionReplacedContent.getSelectionAfter(),
-      ' ',
+      mentionReplacedContent.getSelectionAfter()
     );
   }
 
