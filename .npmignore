@@ -3,13 +3,15 @@
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git-
 node_modules
 
+# Browserify cache & build files
+bundle.js
+.bundle.js
+
 # sources
 /src/
-webpack.config.js
-.babelrc
-.gitignore
-README.md
-CHANGELOG.md
 
 # NPM debug
 npm-debug.log
+
+tests
+docs
